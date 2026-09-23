@@ -1,0 +1,28 @@
+1. Muestra los mensajes, variables o errores en la consola del navegador, sin mostrarlo en la página web del usuario.
+
+2. Sí se puede, ya que es una variable global y, al cambiarlo, se actualiza junto con el nuevo valor.
+
+3. Sirve para probar, ejecutar el código en tiempo real, identificar los errores y probar que el html y el js se comunican correctamente.
+
+4. Para que la información se muestre en la página y que JS pueda utilizarlo para manipularlo o modificarlo.
+
+5. Por la separación de tareas. HTML debe encargarse de la estructura y el JS de la lógica y la interactividad.
+    Si están juntos, el código sería más difícil de leer y mantener.
+
+6. Porque es su versión pura y básica, sin herramientas adicionales, librerías ni frameworks externos.
+
+7. Se usa JS puro para proyectos pequeños, webs sencillas como un formulario o para aprender las bases del lenguaje.
+    Se usan frameworks como REACT para webs más grandes y complejas, cuando la interfaz de usuario tiene muchos cambios...
+    React optimiza el rendimiento y permite crear componentes reutilizables.
+
+
+8. Podemos usar function y const: function saludar(nombre) // const saludar = (nombre)
+
+9. La diferencia es que let permite que el valor cambie más adelante, mientras que const lo bloquea.
+
+10. Let hace que el valor de la variable pueda cambiarse. Sí puede evitarse en la variable apellido, ya que no vuelve a
+    cambiar, por lo que se puede usar const.
+
+11. Hay dos eventos: DOMContentLoaded (para que el código espere a que el html haya cargado antes de ejecutarse).
+    Y submit: asociado mediante document.getElementById('formulario') (detecta el momento en el que el usuario envía 
+    el formulario y ejecuta la función que frena la acción por defecto de recargar la página, event.preventDefault()). 
