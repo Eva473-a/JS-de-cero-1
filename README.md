@@ -51,6 +51,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    nombre
    ```
 
+
 ## Parte 3: Tu primer archivo HTML + JavaScript
 
 1. Crea una carpeta llamada `00JSyEntorno` dentro de tu espacio de trabajo.
@@ -75,6 +76,9 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 4. Desde VSCode abre el archivo `hola.html` en tu navegador.
 5. Observa el resultado en la consola del navegador.
 
+<img width="1040" height="138" alt="image" src="https://github.com/user-attachments/assets/0b71df7b-8fbb-4649-bb3a-102f6d336d63" />
+
+
 ## Parte 4: Experimenta
 
 - Cambia el valor de la variable `nombre` por el tuyo y recarga la página.
@@ -86,6 +90,10 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    document.body.innerHTML = "<h1>¡Hola, " + nombre + "!</h1>";
    ```
 - Publica tu proyecto en el repositorio de GitHub y usa GitHub Pages para alojarlo. Sigue [esta guía](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) para hacerlo.
+
+<img width="783" height="208" alt="image" src="https://github.com/user-attachments/assets/7f06864a-f375-40dd-a4bc-b87e77bcf375" />
+
+<img width="659" height="174" alt="image" src="https://github.com/user-attachments/assets/da9541b4-222e-4f98-9ea7-b44961e18dc5" />
 
 
 ## parte 5: formulario HTML + JavaScript
@@ -124,7 +132,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    ```
 6. Desde VSCode abre `formulario.html` en tu navegador y prueba el formulario.
 
-   
+   <img width="450" height="190" alt="image" src="https://github.com/user-attachments/assets/dda1c457-de85-4bb8-bf08-42b75920dcd3" />
+
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
