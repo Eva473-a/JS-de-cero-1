@@ -1,3 +1,4 @@
+
 # JS desde cero en el navegador... antes que REACT.
 
 El objetivo de esta práctica es crear un formulario básico en HTML y JavaScript que permita saludar a un usuario. Publicarlo en un repositorio de GitHub con GitHub Pages. Todo debes documentarlo con un pantallazo en este mismo archivo y personalizarlo con tu tus datos personales.
@@ -137,17 +138,32 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
+    Muestra los mensajes, variables o errores en la consola del navegador, sin mostrarlo en la página web del usuario.
 2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
+   Sí se puede, ya que es una variable global y, al cambiarlo, se actualiza junto con el nuevo valor.
 3. ¿Para qué sirve la consola del navegador en este contexto?
+    Sirve para probar, ejecutar el código en tiempo real, identificar los errores y probar que el html y el js se comunican correctamente.
 4. Para qué sirve el archivo HTML en este contexto?
+    Para que la información se muestre en la página y que JS pueda utilizarlo para manipularlo o modificarlo.
 5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
+   Por la separación de tareas. HTML debe encargarse de la estructura y el JS de la lógica y la interactividad.
+    Si están juntos, el código sería más difícil de leer y mantener.
 6. Por qué se llama Vanilla JavaScript?
+    Porque es su versión pura y básica, sin herramientas adicionales, librerías ni frameworks externos.
 7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
+   Se usa JS puro para proyectos pequeños, webs sencillas como un formulario o para aprender las bases del lenguaje.
+    Se usan frameworks como REACT para webs más grandes y complejas, cuando la interfaz de usuario tiene muchos cambios...
+    React optimiza el rendimiento y permite crear componentes reutilizables.
 8. Cómo se define una función en JS
+    Podemos usar function y const: function saludar(nombre) // const saludar = (nombre)
 9. Sobre el código demuestra la diferencia entre let y const
+    La diferencia es que let permite que el valor cambie más adelante, mientras que const lo bloquea.
+    Let hace que el valor de la variable pueda cambiarse. Sí puede evitarse en la variable apellido, ya que no vuelve a
+    cambiar, por lo que se puede usar const.
 10. Indica en el código:
    1. Si puede evitarse el uso de let. Qué hace
    2. Cuántos eventos hay en el código, cuáles son y para qué sirven
-
-
+      Hay dos eventos: DOMContentLoaded (para que el código espere a que el html haya cargado antes de ejecutarse).
+    Y submit: asociado mediante document.getElementById('formulario') (detecta el momento en el que el usuario envía 
+    el formulario y ejecuta la función que frena la acción por defecto de recargar la página, event.preventDefault()).
 
