@@ -55,6 +55,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 
 ## Parte 3: Tu primer archivo HTML + JavaScript
 
+--- Práctica 'hola' --- https://github.com/Eva473-a/JS-de-cero-1/tree/main/00JSyEntorno/hola
+
 1. Crea una carpeta llamada `00JSyEntorno` dentro de tu espacio de trabajo.
 2. Dentro de esa carpeta, crea un archivo llamado `hola.html`.
 3. Escribe el siguiente código en `hola.html`:
@@ -98,6 +100,9 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 
 
 ## parte 5: formulario HTML + JavaScript
+
+--- Práctica 'formulario' --- https://github.com/Eva473-a/JS-de-cero-1/tree/main/00JSyEntorno/formulario
+
 1. Crea un archivo llamado `formulario.html` en la misma carpeta `00JSyEntorno`.
 2. Crea un archivo llamado `formulario.js` en la misma carpeta `00JSyEntorno`.
 3. Escribe el siguiente código en `formulario.html`:
